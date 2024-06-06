@@ -1,0 +1,15 @@
+artifact_uri: /Users/poloniki/code/melisa/art/runs/mlflow/299290330156118983/2ec7d1d4800a48508e854355c079a35a/artifacts
+end_time: 1717681146986
+entry_point_name: ''
+experiment_id: '299290330156118983'
+lifecycle_stage: active
+run_id: 2ec7d1d4800a48508e854355c079a35a
+run_name: train
+run_uuid: 2ec7d1d4800a48508e854355c079a35a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717681017482
+status: 3
+tags: []
+user_id: poloniki

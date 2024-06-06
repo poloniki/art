@@ -1,7 +1,6 @@
 from art.load_data import load_data
 from art.clean import clean_data, get_most_common
 import os
-import pandas as pd
 from sklearn.model_selection import train_test_split
 import requests
 from tqdm import tqdm
@@ -48,14 +47,14 @@ def download_images_parallel(df, base_folder):
 
 def load_data_and_make_folders():
     # Load and clean data
-    data = load_data(path="/home/poloniki/code/melisa/art/label_list/label_list.csv")
+    data = load_data(path="/Users/poloniki/code/melisa/art/label_list/label_list.csv")
     cleaned_data = clean_data(data)
     df = get_most_common(cleaned_data, "Style", 0.8)
 
     # Specify percentages
-    train_percentage = 0.7
-    validation_percentage = 0.15
-    test_percentage = 0.15
+    train_percentage = 0.9
+    validation_percentage = 0.08
+    test_percentage = 0.02
 
     # Ensure the percentages sum to 1.0
     assert (
